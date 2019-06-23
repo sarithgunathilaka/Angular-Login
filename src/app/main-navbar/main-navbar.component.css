@@ -1,0 +1,53 @@
+.icon{
+  font-size: 40px;
+}
+.sidenav-container {
+
+}
+
+.sidenav {
+  width: 200px;
+
+}
+
+
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.user{
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+}
+.one {
+  background-image: url('http://placehold.it/200x200');
+}
+
+.spacer{
+  flex: 1 1 auto;
+}
+.logo{
+
+  position:relative;
+
+  text-align:left;
+  max-width:200px;max-height:220px;
+}
+
+.mat-toolbar.mat-primary {
+  background: #D64F1E;
+}
+
+
+
+

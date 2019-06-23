@@ -1,3 +1,42 @@
-<p>
-  dashboard works!
-</p>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="container">
+
+  <div id="products" class="row view-group">
+    <div class="item col-xs-4 col-lg-6">
+        <div class="thumbnail card">
+          <div class="img-event">
+              <img class="group list-group-image img-fluid" src="http://placehold.it/400x250/000/fff" alt="" />
+                  </div>
+        </div>
+    </div>
+    <div class="item col-xs-4 col-lg-6">
+        <div class="thumbnail card">
+              <div class="img-event">
+                  <img class="group list-group-image img-fluid" src="http://placehold.it/400x250/000/fff" alt="" />
+              </div>
+        </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="container">
+ <div id="products" class="row view-group">
+    <div *ngFor="let record of dash" class="item col-xs-4 col-lg-4">
+        <div class="customCard card">
+          {{record.employee_salary}}
+        </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
